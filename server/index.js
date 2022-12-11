@@ -20,7 +20,7 @@ app.use(compression());
 app.use(middleware.cors);
 app.use(middleware.debug);
 
-// app.use("/auth", routes.UsersRoutes);
+app.use("/api", routes.AuthRoute);
 app.use("/test", routes.TestRoute);
 
 app.use(middleware.handleError);
