@@ -1,9 +1,11 @@
-const testApi = (req, res) => {
-    res.status(200).json({
-      status: "success",
-    });
-  };
+import config from "../config/config";
 
-  export default {
-    testApi,
-  };
+const testApi = (req, res) => {
+  res.status(200).json({
+    status: config.env,
+  });
+};
+
+export default {
+  testApi,
+};
