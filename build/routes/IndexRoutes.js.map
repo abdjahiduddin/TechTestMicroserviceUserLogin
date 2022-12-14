@@ -1,0 +1,1 @@
+{"version":3,"file":"IndexRoutes.js","names":["TestRoute","AuthRoute"],"sources":["../../server/routes/IndexRoutes.js"],"sourcesContent":["import TestRoute from \"./TestRoute\";\nimport AuthRoute from \"./AuthRoute\"\n\nexport default {\n  TestRoute,\n  AuthRoute\n};\n"],"mappings":";;;;;;;AAAA;AACA;AAAmC,eAEpB;EACbA,SAAS,EAATA,qBAAS;EACTC,SAAS,EAATA;AACF,CAAC;AAAA"}
