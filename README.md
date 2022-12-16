@@ -1,7 +1,7 @@
 
 # API User Login - Technical Test
 
-Repositori ini berisi source code API User Login.
+Repositori ini berisi source code API User Login dan Dockerfile untuk build project ini menjadi Docker Image.
 
 
 
