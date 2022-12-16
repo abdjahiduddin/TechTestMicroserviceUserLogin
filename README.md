@@ -36,12 +36,12 @@ Repositori ini berisi source code API User Login.
 - mongoose : Membuat schema dan model database. Serta melakukan operasi CRUD ke MongoDB.
 - babel : Melakukan compile source code javascript agar dapat dijalankan oleh javascript engine versi lama (backwards-compatible).
 
-## Credentials
+## Credential
 **email:** admin@gmail.com
 
 **password:** admin
 
-## Endpoint
+## Endpoints
 Detail mengenai cara melakukan request dan response yang akan didapatkan dapat dilihat di [API Documentation](https://documenter.getpostman.com/view/3903208/2s8YzXteda).
 
 Perlu diperhatikan jika menjalankan project ini secara lokal maka path tidak perlu diawali dengan /auth karena /auth hanya digunakan oleh rules Ingress Kubernetes.
