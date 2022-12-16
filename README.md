@@ -41,7 +41,7 @@ Repositori ini berisi source code API User Login.
 
 **password:** admin
 
-## Endpoints
+## Endpoint
 Detail mengenai cara melakukan request dan response yang akan didapatkan dapat dilihat di [API Documentation](https://documenter.getpostman.com/view/3903208/2s8YzXteda).
 
 Perlu diperhatikan jika menjalankan project ini secara lokal maka path tidak perlu diawali dengan /auth karena /auth hanya digunakan oleh rules Ingress Kubernetes.
@@ -56,6 +56,7 @@ Generate JWT Token :
 - MONGODB_URI : URI untuk membuat koneksi ke MongoDB.
 - JWT_SECRET : Secret yang digunakan untuk generate dan verifikasi JWT Token.
 - NODE_ENV : Production atau Development.
+
 ## Run Locally
 
 Clone project
