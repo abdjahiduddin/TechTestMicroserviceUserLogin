@@ -48,7 +48,7 @@ Perlu diperhatikan jika menjalankan project ini secara lokal maka path tidak per
 
 Generate JWT Token :
 ```bash
-  /api/login
+  POST /api/login
 ```
 
 
