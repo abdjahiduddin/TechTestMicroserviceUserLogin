@@ -77,7 +77,7 @@ Install dependencies
   yarn install
 ```
 
-Jalankan server dilingkungan development
+Menjalankan server dilingkungan development
 
 ```bash
   yarn run start-dev
@@ -89,7 +89,7 @@ Build project menggunakan babel
   yarn run build
 ```
 
-Jalankan server dilingkungan production
+Menjalankan server dilingkungan production
 
 ```bash
   yarn run start
